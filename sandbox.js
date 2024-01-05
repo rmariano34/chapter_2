@@ -10,5 +10,6 @@ const points = 100;
 //points = 50;
 console.log(points);
 
-var score = 75;
+var score = 65;
 console.log(score);
+
