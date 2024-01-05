@@ -1,26 +1,13 @@
-// strings
-console.log('hello, world');
+let radius = 10;
+const pi = 3.14;
 
-let email = 'maria@thenetninja.co,uk';
-console.log(email);
+// console.log(radius, pi);
 
-// string concatenation
-let firstName = 'Brandon';
-let lastName = 'Sanderson';
+// math operators
 
-let fullName = firstName + ' ' + lastName;
-console.log(fullName);
-// getting characters
-console.log(fullName[2]);
+//consol.log(10/2);
 
-// string length
-console.log(fullName.length);
+//let result- radisu % 3;
+let result = pi * radius**2;
 
-// string methods
-console.log(fullName.toUpperCase());
-console.log(fullName.toLowerCase());
-console.log(result, fullName);
-
-let index = email.indexOf('@');
-console
-
+console.log(result);
