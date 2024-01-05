@@ -1,13 +1,11 @@
-let age = 25;
+let score = '100';
 
-//console.long(age, age + 3, `the age is ${age}`);
-// console.log(age == 25);
+score = Number(score)
 
-//console.log(age != '25');
-//console.log(age != '25');
+console.log(score + 1);
+console.log(typeof score);
 
-// strict comparison
-console.log(age === 25);
-console.log(age === '25');
-console.log(age !== 25);
-console.log(age !== '25');
+//let result = Number('hello');
+let result = Boolean(0);
+
+console.log(result, typeof result);
