@@ -1,33 +1,19 @@
-let radius = 10;
-const pi = 3.14;
+// template strings
+const title = 'Best reads of 2019';
+const author = 'Mario';
+const likes = 30; 
 
-// console.log(radius, pi);
+// concatentation way
+//let result = 'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes';
 
-// math operators
+// template string way
+let result = `The blog called ${title} by ${author} has ${likes} likes`;
+console.log(result);
 
-//consol.log(10/2);
-
-//let result- radisu % 3;
-//let result = pi * radius**2;
-
-// order of operation - BIDMAS
-
-//let result = 5 * (10=3)**2;
-
-//console.log(result);
-
-let likes = 10;
-
-//likes = likes + 1;
-//likes++;
-
-// Shorthand notation
-//likes += 10;
-
-//likes -= 5;
-
-//likes *= 2;
-
-//likes /= 2;
-
-console.log(likes);
+// creating html templates
+let html = `
+    <h2>${title}</h2>
+    <p>By ${author}</p>
+    <span>This blog has ${likes} likes</span>
+    `;
+console.log(html);
